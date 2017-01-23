@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata>
+        <id>MachinaAurum.FeatureSwitcher.Script</id>
+        <description>Allow configuration of featuresusing scripts (currently just javascript)</description>
+        <version>0.1</version>
+        <authors>Daniel Frederico Lins Leite</authors>
+        <owners>xunilrj</owners>
+        <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+        <projectUrl>https://github.com/xunilrj/FeatureSwitcher.Script</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <tags>feature toggle featureswitcher</tags>
+        <dependencies>
+            <dependency id="FeatureSwitcher.Contexteer" version="1.0.1" />
+            <dependency id="FeatureSwitcher" version="1.0.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="MachinaAurum.FeatureSwitcher.Script.dll" target="lib\net40\" />
+        <file src="MachinaAurum.FeatureSwitcher.Script.pdb" target="lib\net40\" />
+    </files>
+</package>
